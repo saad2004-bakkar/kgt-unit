@@ -1,0 +1,80 @@
+body {
+  font-family: 'Arial', sans-serif;
+  direction: rtl;
+  background: #111;
+  color: #eee;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  border-bottom: 1px solid #444;
+  margin-bottom: 20px;
+}
+
+.tagline {
+  color: gold;
+  font-size: 1.1em;
+}
+
+h2 {
+  border-right: 4px solid #ff6600;
+  padding-right: 10px;
+  color: #ffcc00;
+}
+
+textarea {
+  width: 100%;
+  height: 60px;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1em;
+}
+
+button {
+  background: #007acc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+.upload {
+  margin: 20px 0;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+label[for="fileInput"] {
+  background: #333;
+  padding: 10px;
+  border: 1px dashed #888;
+  cursor: pointer;
+}
+
+.emergency {
+  background: red;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  animation: blink 1s infinite;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0.3; }
+  100% { opacity: 1; }
+}
